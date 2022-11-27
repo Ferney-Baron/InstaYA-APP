@@ -31,7 +31,7 @@ export default function LoginApp() {
                 <a href="/home"><button type="button" class="btn btn-info mt-3 ">Log in</button></a>
             </div>
             <div className='text-center mt-3'> 
-                <p className='mb-0'>You do not have an account?<a href="#" className='text-info'>Create a new account</a></p>
+                <p className='mb-0'>You do not have an account?<a href="/register" className='text-info'>Create a new account</a></p>
             </div>
         </form>
     </div>

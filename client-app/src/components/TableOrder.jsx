@@ -22,7 +22,7 @@ export default function TableOrder() {
                         <td>Column content</td>
                         <td>
                             <button type="button" className="btn btn-outline-danger mx-1">Delete</button>
-                            <button type="button" className="btn btn-outline-success mx-1">Update</button>
+                          <a href="/update-order"><button type="button" className="btn btn-outline-success mx-1">Update</button></a>
                         </td>
                     </tr>
 
