@@ -10,7 +10,7 @@ export default function () {
             <main>
                 <div className='d-flex justify-content-end  mb-2'>
                     <form className="d-flex align-items-center">
-                        <input className="form-control me-sm-2" type="text" placeholder="Search" />
+                        <input className="form-control me-sm-2 search" type="text" placeholder="Search"/>
                         <button className="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
                     </form>
                 </div>

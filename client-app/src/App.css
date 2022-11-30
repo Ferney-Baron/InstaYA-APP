@@ -45,14 +45,19 @@ footer {
   width: 100%;
 }
 
-/* .nabb { 
-   display: flex; 
-   justify-content: end;
+.form-create{
+  display: flex;
+  flex-direction: column;
 }
 
-@media (max-width: 988px) {
-    .nabb {
-      flex-direction: column;
-      width: 20rem;
-    }
-} */
+.form-control-create, .input-group-text {
+  height: 1.9rem;
+}
+
+.form-control-create {
+  width: 20rem;
+  border-radius: 2px;
+  border-style: none;
+  margin-left: 6px;
+  margin-left: 1rem;
+}
